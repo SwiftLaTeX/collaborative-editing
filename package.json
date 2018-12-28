@@ -6,14 +6,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gkjohnson/collaborative-code-editor.git"
+    "url": "git+https://github.com/SwiftLaTeX/collaborative-editing.git"
   },
   "author": "SwiftLaTeX",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gkjohnson/collaborative-code-editor/issues"
-  },
-  "homepage": "https://github.com/gkjohnson/collaborative-code-editor#readme",
+  "license": "AGPL",
+  "homepage": "https://github.com/SwiftLaTeX/collaborative-editing#readme",
   "dependencies": {
     "express": "^4.16.4",
     "ot-text": "^1.0.2",
