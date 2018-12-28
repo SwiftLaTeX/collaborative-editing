@@ -9,7 +9,7 @@
     "url": "git+https://github.com/SwiftLaTeX/collaborative-editing.git"
   },
   "author": "SwiftLaTeX",
-  "license": "AGPL",
+  "license": "AGPL-3.0-or-later",
   "homepage": "https://github.com/SwiftLaTeX/collaborative-editing#readme",
   "dependencies": {
     "express": "^4.16.4",
