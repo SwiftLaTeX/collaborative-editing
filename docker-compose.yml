@@ -1,0 +1,23 @@
+version: '3.3'
+services:
+  collaborative-web:
+    restart: always
+    image: swiftlatex/collaborative
+    container_name: collaborative
+    depends_on:
+      - mongo_server
+    ports:
+      - 80:80
+      - 8080:8080
+      - 8081:8081
+    environment:
+      MONGODB_URL: mongodb://mongo_server:27017/docstore
+      APIKEY: eca4da50d2a16asd448805b452ccaea7
+  mongo_server:
+    restart: always
+    image: mongo
+    container_name: mongo_server
+    expose:
+      - 27017
+    volumes:
+      - ~/mongo_data:/data/db

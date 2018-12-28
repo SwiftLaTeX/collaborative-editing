@@ -178,7 +178,7 @@ function verify_cred(pid, username, exptime, sid)
 const server = HTTP_I.createServer(app);
 const port = 80;
 server.listen(port);
-console.log(`listening on port ${port}`);
+console.log(`APIServer listening on port ${port}`);
 
 
 
@@ -263,4 +263,4 @@ io.on('connection', client => {
 
 
 clientserver.listen(8081);
-console.log(`ChatServer listening on port 8081`);
+console.log(`ClientServer listening on port 8081`);
