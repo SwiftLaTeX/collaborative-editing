@@ -43,8 +43,8 @@ const sharewss = new WebSocket_I.Server({ server: shareserver, verifyClient:func
     }
 });
 sharewss.on('connection', client => sharedb.listen(new WebSocketJSONStream_I(client)));
-shareserver.listen(8080);
-console.log(`ShareDB listening on port 8080`);
+shareserver.listen(18080);
+console.log(`ShareDB listening on port 18080`);
 
 
 
