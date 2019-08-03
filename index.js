@@ -36,7 +36,7 @@ const sharewss = new WebSocket_I.Server({ server: shareserver, verifyClient:func
         let authcred = authurl.split("/");
         if(authcred.length !== 3 || ! verify_cred(authcred[0], authcred[1], authcred[2]))
         {
-            console.log("Wrong cred when sharedb connected");
+            console.log("Wrong cred when sharedb connected " + authcred[0]);
             return false;
         }
         return true;
