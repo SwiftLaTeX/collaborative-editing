@@ -12,13 +12,12 @@
   "license": "AGPL-3.0-or-later",
   "homepage": "https://github.com/SwiftLaTeX/collaborative-editing#readme",
   "dependencies": {
-    "express": "^4.16.4",
     "ot-text": "^1.0.2",
     "socket.io": "^2.2.0",
     "websocket-json-stream": "^0.0.3",
-    "sharedb": "^1.0.0-beta.17",
-    "sharedb-mongo": "^1.0.0-beta.8",
-    "mongodb": "^3.1.10",
-    "ejs": "^2.6.1"
+    "sharedb": "^1.0.0-beta.23",
+    "sharedb-mongo": ">1.0.0-beta.8",
+    "sharedb-milestone-mongo": "^0.2.0",
+    "mongodb": ">3.1.10"
   }
 }
