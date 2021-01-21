@@ -13,7 +13,7 @@
   "homepage": "https://github.com/SwiftLaTeX/collaborative-editing#readme",
   "dependencies": {
     "ot-text": "^1.0.2",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "websocket-json-stream": "^0.0.3",
     "sharedb": "^1.0.0-beta.23",
     "sharedb-mongo": ">1.0.0-beta.8",
