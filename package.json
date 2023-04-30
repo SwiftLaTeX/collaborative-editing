@@ -16,8 +16,8 @@
     "socket.io": "^2.2.0",
     "websocket-json-stream": "^0.0.3",
     "sharedb": "^1.0.0-beta.23",
-    "sharedb-mongo": ">1.0.0-beta.8",
-    "sharedb-milestone-mongo": "^0.2.0",
+    "sharedb-mongo": ">3.0.1",
+    "sharedb-milestone-mongo": "^0.9.0",
     "mongodb": ">3.1.10"
   }
 }
